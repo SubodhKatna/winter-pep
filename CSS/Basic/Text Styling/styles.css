@@ -1,0 +1,96 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.heading {
+    text-align: center;
+    font-size: 2.5em;
+    color: #1e90ff;
+    margin-bottom: 20px;
+}
+
+/* Section headings */
+h2 {
+    color: #444;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Basic text styles */
+.basic-text {
+    font-size: 1.2em;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
+
+/* Intermediate text styles */
+.colored-text {
+    color: #e63946;
+}
+
+.highlighted-text {
+    background-color: #ffeb3b;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+.shadowed-text {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Advanced text styles */
+.gradient-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff7f50, #1e90ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.animated-text {
+    font-size: 1.2em;
+    animation: colorFade 3s infinite;
+}
+
+@keyframes colorFade {
+    0% { color: #ff5733; }
+    50% { color: #33ff57; }
+    100% { color: #3357ff; }
+}
+
+.multicolor-text {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+}

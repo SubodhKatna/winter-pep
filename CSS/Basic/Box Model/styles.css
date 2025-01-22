@@ -1,0 +1,63 @@
+/* General body and container styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Heading styling */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Basic Box Model */
+.basic-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #333;
+}
+
+/* Intermediate Box Model */
+.intermediate-box {
+    width: 250px;
+    height: 120px;
+    background-color: lightcoral;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 120px;
+    border: 2px dashed #333;
+    padding: 10px;
+}
+
+/* Advanced Box Model */
+.advanced-box {
+    width: 300px;
+    height: auto;
+    background-color: lightgreen;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #006400;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styles for text */
+.advanced-box p {
+    margin: 0;
+    color: #004d00;
+    font-weight: bold;
+}

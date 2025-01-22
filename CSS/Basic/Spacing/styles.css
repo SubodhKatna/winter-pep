@@ -1,0 +1,81 @@
+/* General body and container styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Heading styling */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Section titles */
+section h2 {
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Basic Spacing */
+.basic-box {
+    background-color: lightblue;
+    width: 300px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #007acc;
+    text-align: center;
+    line-height: 80px; /* Centers text vertically */
+}
+
+/* Intermediate Spacing */
+.intermediate-box {
+    background-color: lightcoral;
+    width: 300px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 60px; /* Adjusted for padding */
+    border: 2px dashed #333;
+}
+
+.intermediate-box-spaced {
+    background-color: lightgreen;
+    width: 300px;
+    height: 100px;
+    margin: 30px 40px;
+    padding: 30px;
+    border: 2px solid #006400;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* Advanced Spacing */
+.advanced-box {
+    background-color: lightyellow;
+    width: 350px;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px 40px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.advanced-box p {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+    background-color: #fff5e6;
+}
