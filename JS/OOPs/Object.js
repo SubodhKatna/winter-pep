@@ -1,4 +1,3 @@
-
 const car1 = {
     engine: "V8",
     model: "E6",
